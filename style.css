@@ -605,16 +605,16 @@ footer a{
     /* gap: 5px; */
     /* width: ; */
     background: transparent;
-    color: #9146FF ;
-    border: 1px solid var(#9146FF);
+    color: var(--cor-subtitulo) ;
+    border: 1px solid var(--cor-subtitulo);
     border-radius: 10px;
     transform: scale(1.05);
     transition: ease-in-out .3s;
-    border-color: var(#9146FF);
+    border-color: var(--cor-subtitulo);
     box-shadow: 0px 0px 10px;
 }
 .link-twitch:hover{
-    color: #9146FF;
+    color: var(--cor-subtitulo);
     font-size: 20px;
 }
 /* logo */
