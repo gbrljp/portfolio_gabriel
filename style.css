@@ -267,9 +267,10 @@ Class = ( . ) ponto */
 }
 
 .video iframe {
-    width: 50%;
+    width: 100%;
     aspect-ratio: 16/9;
     box-shadow: 0px 0px 15px;
+    height: auto;
 }
 .video  {
     display: flex;
@@ -638,6 +639,10 @@ html{
         font-size: 32px;
         margin-bottom: 25px;
     }
+    .video{
+        width:100% ;
+        height: auto;
+    }
 }
 
 @media (min-width: 768px) {
@@ -689,6 +694,10 @@ html{
     .contato p{
         width: 80%;
     }
+    .video{
+        width:100% ;
+        height: auto;
+    }
 }
 
 
@@ -704,6 +713,10 @@ html{
     footer {
         margin-bottom: 80px;
         padding: 20px;
+    }
+    .video{
+        width:100% ;
+        height: auto;
     }
 }
 
@@ -736,7 +749,10 @@ html{
         align-items: flex-start;
         gap: 64px;
     }
-
+    .video{
+        width:100% ;
+        height: auto;
+    }
 }
 
 /* Fim 992 */
